@@ -1,20 +1,38 @@
-  /* darker orange: color: #bc4123; */
-  /* gray color: #463940; */
-  /* midnight blue: background-color: #0b172A; */
+
+/* SITE COLORS */
+/* darker orange: color: #bc4123; */
+/* gray color: #463940; */
+/* midnight blue: background-color: #0b172A; */
+
+/* SITE FONTS */
+/* font-family: 'Playfair Display', serif;
+font-family: 'Roboto', sans-serif; */
+
 
 body { 
   margin: 0;
-  font-family: Rubik, sans-serif;
   font-size: 16px;
   color:#ffff;
   /* background: #081526; */
   background: #0b172A;
+  width: 100%;
+  height: 100%;
 }
 
-h1 {
-  font-family: Spectral, serif;
+h1, h2, h3, h4 {
+  /* font-family: Spectral, serif; */
+  font-family: 'Playfair Display', serif;
   font-size: 46px;
   color: #bc4123;
+}
+
+p {
+  /* font-family: Rubik, sans-serif; */
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo-1 {
+  font-family: 'Cinzel', serif;
 }
 
 /* navbar START */
@@ -36,6 +54,7 @@ h1 {
   color: #0b172A;
   text-align: center;
   padding: 12px;
+  
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
