@@ -2,7 +2,6 @@
   /* gray color: #463940; */
   /* midnight blue: background-color: #0b172A; */
 
-
 body { 
   margin: 0;
   font-family: Rubik, sans-serif;
@@ -34,14 +33,14 @@ h1 {
 /* Style the navbar links */
 #navbar a {
   float: left;
-  color: black;
+  color: #0b172A;
   text-align: center;
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
   line-height: 25px;
   border-radius: 4px;
-  border-bottom: 3px solid transparent;
+  /* border-bottom: 3px solid transparent; */
 }
 
 /* Style the logo */
@@ -57,14 +56,13 @@ h1 {
   background-color: #ddd;
   color: black;
   border-bottom: 3px solid #bc4123;
- 
 }
 
 /* Style the active/current link */
 #navbar a.active {
-  background-color: dodgerblue;
+  background-color: #0b172A;
   color: white;
-  border-bottom: 3px solid #bc4123;
+  /* border-bottom: 3px solid #bc4123; */
 }
 
 /* Display some links to the right */
