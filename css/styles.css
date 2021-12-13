@@ -1,19 +1,21 @@
-  /* color: #bc4123; */
-  /* color: #463940; */
-  /* background-color: #0b172A; */
+  /* darker orange: color: #bc4123; */
+  /* gray color: #463940; */
+  /* midnight blue: background-color: #0b172A; */
 
 
 body { 
   margin: 0;
   font-family: Rubik, sans-serif;
   font-size: 16px;
-  background-color: #0b172A;
-
+  color:#ffff;
+  /* background: #081526; */
+  background: #0b172A;
 }
 
 h1 {
   font-family: Spectral, serif;
   font-size: 46px;
+  color: #bc4123;
 }
 
 /* navbar START */
@@ -118,7 +120,8 @@ body, html {
 }
 
 .hero-text button:hover {
-  background-color: #555;
+  /* background-color: #555; */
+  background-color: #463940;
   color: white;
 }
 /* hero image END */
@@ -242,9 +245,9 @@ body, html {
 	outline: 0;
 }
 
-body {
+/* body {
 	background: #263238;  /* Set background color to #263238*/
-}
+} */
 
 h3 {
 	text-align: center;
